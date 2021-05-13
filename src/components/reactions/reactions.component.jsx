@@ -10,7 +10,6 @@ function Reactions (){
     for (var i = 2; i < 9; i++){
 
         reactions.push({ id: i});
-        console.log(reactions[i])
         
     }
 
