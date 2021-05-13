@@ -1,0 +1,34 @@
+.header {
+    background: rgb(17, 17, 24);
+    height: 30px;
+    padding: 1em 3em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    width: 25%;
+    padding: 0.4em 0.3em;
+    background: rgb(221, 221, 221);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.menu-icon {
+    transform: rotate(90deg);
+    font-weight: 600;
+    font-size: 1.3em;
+}
+@media screen and (max-width: 400px){
+    .header {
+        padding: 1em 2em;
+    }
+    .search-box {
+        width: 40%;
+    }
+}
